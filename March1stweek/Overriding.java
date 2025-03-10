@@ -4,18 +4,21 @@ class Father {
     }
 }
 
-class Son extends Father {
+class Son extends Father
+ {
     @Override
     void drive() {
         System.out.println("Driving the car very fast...");
     }
 }
 
-public class Main {
+public class Main 
+{
     public static void main(String[] args) {
         Father f = new Father();
-        f.drive(); 
+        f.drive();  
         
         Son s = new Son();
         s.drive(); 
+    }
 }
