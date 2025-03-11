@@ -4,6 +4,9 @@ class Shape
      {
         int area = length * breadth;
         System.out.println("Area of Rectangle: " + area);
+    } 
+
+    public Shape() {
     }
 
     public void area(int side)
